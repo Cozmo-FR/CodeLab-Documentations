@@ -378,7 +378,7 @@ class HangmanGame:
 		url = 'https://wordsapiv1.p.mashape.com/words' + parameter
 
 		#'X-Mashape-Host': 'wordsapiv1.p.mashape.com'
-		headers = {'X-Mashape-Key': 'SMVF29KH75mshWDYHcgpf76M3KbXp1q5fREjsnMgxnV3ZgAAtE'}
+		headers = {'X-Mashape-Key': 'YOUR-KEY'}
 
 		response = requests.get(url, headers = headers)
 		if (response.ok):
